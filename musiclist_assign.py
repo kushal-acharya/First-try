@@ -38,7 +38,7 @@ CREATE TABLE Track (
 ''')
 
 
-fname = input('Enter the file name: ')
+fname = input('Enter the first file name: ')
 if ( len(fname) < 1 ) : fname = 'Library.xml'
 
 # <key>Track ID</key><integer>369</integer>
